@@ -1,0 +1,10 @@
+<input type="text" id="searchBox">
+
+<select id="category">
+    <option>Music</option>
+    <option>Sports</option>
+</select>
+
+<button onclick="registerEvent()">
+Register
+</button>
