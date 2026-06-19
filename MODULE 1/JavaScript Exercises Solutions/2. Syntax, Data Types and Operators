@@ -1,0 +1,17 @@
+const eventName = "Music Festival";
+const eventDate = "20-07-2026";
+
+let availableSeats = 50;
+
+console.log(
+`${eventName} on ${eventDate}
+Seats Available: ${availableSeats}`
+);
+
+availableSeats--;
+
+console.log("Remaining Seats: " + availableSeats);
+
+availableSeats++;
+
+console.log("Seats Updated: " + availableSeats);
