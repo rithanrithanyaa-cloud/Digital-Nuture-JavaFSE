@@ -1,0 +1,30 @@
+const eventInfo = {
+    name:"Music Fest",
+    date:"20-07-2026",
+    seats:50
+};
+
+/* Destructuring */
+
+const {
+    name,
+    date,
+    seats
+} = eventInfo;
+
+console.log(name,date,seats);
+
+/* Default Parameter */
+
+function displayEvent(
+eventName = "Unknown Event"
+){
+    console.log(eventName);
+}
+
+/* Spread Operator */
+
+const clonedEvents =
+[...eventsList];
+
+console.log(clonedEvents);
