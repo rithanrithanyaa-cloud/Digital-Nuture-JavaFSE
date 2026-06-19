@@ -1,0 +1,42 @@
+const userData = {
+
+    name:"Rithanyaa",
+    email:"rith@example.com"
+
+};
+
+setTimeout(()=>{
+
+fetch(
+"https://jsonplaceholder.typicode.com/posts",
+{
+method:"POST",
+
+headers:{
+"Content-Type":
+"application/json"
+},
+
+body:
+JSON.stringify(userData)
+
+}
+)
+
+.then(response=>response.json())
+
+.then(data=>{
+
+console.log(data);
+
+alert("Registration Sent");
+
+})
+
+.catch(error=>{
+
+alert("Submission Failed");
+
+});
+
+},2000);
