@@ -1,0 +1,35 @@
+class PatternSwitchDemo {
+
+    static String check(Object obj) {
+
+        return switch(obj) {
+
+            case Integer i ->
+                "Integer : " + i;
+
+            case String s ->
+                "String : " + s;
+
+            case Double d ->
+                "Double : " + d;
+
+            default ->
+                "Unknown Type";
+        };
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(
+            check(100)
+        );
+
+        System.out.println(
+            check("Java")
+        );
+
+        System.out.println(
+            check(10.5)
+        );
+    }
+}
