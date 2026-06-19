@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+#welcomeBanner{
+    background-color:blue;
+    color:white;
+    padding:20px;
+}
+
+.highlight{
+    background-color:yellow;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="welcomeBanner">
+
+    Welcome Resident!
+
+    <span style="color:red;font-weight:bold;">
+        Special Offer: Free Event Pass
+    </span>
+
+</div>
+
+<p class="highlight">
+    Register before the deadline.
+</p>
+
+</body>
+</html>
