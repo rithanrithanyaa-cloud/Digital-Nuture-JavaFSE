@@ -1,0 +1,81 @@
+<style>
+
+.galleryImage{
+    border:3px solid black;
+    width:200px;
+    height:150px;
+}
+
+</style>
+
+<table>
+
+<tr>
+
+<td>
+<img src="event1.jpg"
+alt="Music Event"
+title="Music Event"
+class="galleryImage">
+
+<br>
+Music Festival
+</td>
+
+<td>
+<img src="event2.jpg"
+alt="Sports Event"
+title="Sports Event"
+class="galleryImage">
+
+<br>
+Sports Day
+</td>
+
+<td>
+<img src="event3.jpg"
+alt="Food Event"
+title="Food Event"
+class="galleryImage">
+
+<br>
+Food Fair
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<img src="event4.jpg"
+alt="Dance Event"
+title="Dance Event"
+class="galleryImage">
+
+<br>
+Dance Show
+</td>
+
+<td>
+<img src="event5.jpg"
+alt="Art Event"
+title="Art Event"
+class="galleryImage">
+
+<br>
+Art Exhibition
+</td>
+
+<td>
+<img src="event6.jpg"
+alt="Cultural Event"
+title="Cultural Event"
+class="galleryImage">
+
+<br>
+Cultural Fest
+</td>
+
+</tr>
+
+</table>
