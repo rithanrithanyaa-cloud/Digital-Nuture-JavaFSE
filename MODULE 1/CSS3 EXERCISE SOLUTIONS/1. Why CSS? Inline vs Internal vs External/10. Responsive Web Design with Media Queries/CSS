@@ -1,0 +1,25 @@
+nav{
+    display:flex;
+    gap:20px;
+}
+
+img{
+    width:30vw;
+}
+
+/* Mobile View */
+
+@media screen and (max-width:768px){
+
+    nav{
+        flex-direction:column;
+    }
+
+    body{
+        font-size:14px;
+    }
+
+    img{
+        width:80vw;
+    }
+}
