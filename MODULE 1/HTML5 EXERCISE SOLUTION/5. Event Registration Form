@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+form{
+    width:400px;
+    margin:auto;
+    padding:20px;
+    border:2px solid gray;
+    background-color:#f4f4f4;
+}
+
+input,select,textarea{
+    width:100%;
+    margin-bottom:10px;
+    padding:8px;
+}
+
+</style>
+
+<script>
+
+function registerEvent(){
+    document.getElementById("msg").value=
+    "Registration Submitted Successfully";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<form>
+
+<input type="text"
+placeholder="Enter Name"
+required
+autofocus>
+
+<input type="email"
+placeholder="Enter Email"
+required>
+
+<input type="date"
+required>
+
+<select required>
+
+<option>Music Event</option>
+<option>Sports Event</option>
+<option>Food Fair</option>
+
+</select>
+
+<textarea
+placeholder="Message">
+</textarea>
+
+<button type="button"
+onclick="registerEvent()">
+Submit
+</button>
+
+<br><br>
+
+<output id="msg"></output>
+
+</form>
+
+</body>
+</html>
