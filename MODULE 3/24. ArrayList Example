@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+class ArrayListDemo {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> events =
+            new ArrayList<>();
+
+        events.add("Music Festival");
+        events.add("Food Fair");
+        events.add("Sports Day");
+
+        System.out.println(events);
+
+        events.remove("Food Fair");
+
+        System.out.println(events);
+    }
+}
