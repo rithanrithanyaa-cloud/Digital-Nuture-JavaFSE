@@ -1,0 +1,59 @@
+Inspect Element
+Open webpage.
+Right-click any element.
+Select Inspect.
+Edit CSS values live.
+Console Tab
+<script>
+
+console.log("Portal Loaded");
+
+let fee=100;
+
+console.log(fee);
+
+</script>
+
+Check output in:
+
+F12 → Console
+Breakpoints
+<script>
+
+function calculateFee(){
+
+let fee=100;
+
+debugger;
+
+fee=fee+50;
+
+console.log(fee);
+
+}
+
+calculateFee();
+
+</script>
+Steps
+Open Sources Tab
+Add breakpoint or use debugger;
+Reload page
+Watch variables in the right panel
+Complete Project Structure
+LocalCommunityPortal/
+│
+├── index.html
+├── help.html
+├── style.css
+│
+├── images/
+│   ├── event1.jpg
+│   ├── event2.jpg
+│   ├── event3.jpg
+│   ├── event4.jpg
+│   ├── event5.jpg
+│   └── event6.jpg
+│
+└── videos/
+    └── promo.mp4
