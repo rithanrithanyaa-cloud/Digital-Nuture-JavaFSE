@@ -1,0 +1,22 @@
+<form id="registrationForm">
+
+<input
+type="text"
+name="username">
+
+<input
+type="email"
+name="email">
+
+<select name="event">
+<option>Music</option>
+<option>Sports</option>
+</select>
+
+<button type="submit">
+Register
+</button>
+
+<p id="error"></p>
+
+</form>
