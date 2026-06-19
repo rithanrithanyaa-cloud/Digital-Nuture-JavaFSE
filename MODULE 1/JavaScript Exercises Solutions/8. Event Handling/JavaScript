@@ -1,0 +1,21 @@
+function registerEvent(){
+    alert("Registered");
+}
+
+document
+.getElementById("category")
+.onchange = function(){
+
+    console.log(this.value);
+
+};
+
+document
+.getElementById("searchBox")
+.addEventListener(
+"keydown",
+function(event){
+
+    console.log(event.key);
+
+});
