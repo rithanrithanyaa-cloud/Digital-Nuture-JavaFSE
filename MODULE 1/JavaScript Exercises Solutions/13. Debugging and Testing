@@ -1,0 +1,13 @@
+console.log("Form Submission Started");
+
+function submitForm(){
+
+    console.log("Collecting Data");
+
+    let name = "User";
+
+    debugger;
+
+    console.log(name);
+
+}
