@@ -1,0 +1,34 @@
+import java.sql.*;
+
+class JDBCInsertUpdate {
+
+    public static void main(String[] args) {
+
+        try {
+
+            Connection con =
+                DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/testdb",
+                    "root",
+                    "password"
+                );
+
+            Statement st = con.createStatement();
+
+            st.executeUpdate(
+                "INSERT INTO student VALUES(101,'Rithanyaa')"
+            );
+
+            st.executeUpdate(
+                "UPDATE student SET name='Priya' WHERE id=101"
+            );
+
+            System.out.println("Insert and Update Successful");
+
+            con.close();
+
+        } catch(Exception e) {
+            System.out.println(e);
+        }
+    }
+}
