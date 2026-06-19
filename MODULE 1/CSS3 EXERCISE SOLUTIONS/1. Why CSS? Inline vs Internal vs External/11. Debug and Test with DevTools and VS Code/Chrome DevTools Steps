@@ -1,0 +1,28 @@
+Device Testing
+Open webpage.
+Press F12.
+Click Toggle Device Toolbar (Ctrl + Shift + M).
+Select:
+iPhone
+iPad
+Galaxy
+Responsive Mode
+Inspect Styles
+Right-click element.
+Click Inspect.
+View applied CSS.
+Modify values live.
+Verify CSS Loading
+Open Network tab.
+Refresh page.
+Check whether styles.css is loaded successfully.
+Status should be 200 OK.
+Complete Folder Structure
+LocalCommunityPortal/
+│
+├── index.html
+│
+├── styles.css
+│
+└── images/
+    └── city.jpg
