@@ -1,0 +1,9 @@
+$("#registerBtn").click(function(){
+
+    alert("Registered");
+
+});
+
+$("#eventCard").fadeOut(2000);
+
+$("#eventCard").fadeIn(2000);
