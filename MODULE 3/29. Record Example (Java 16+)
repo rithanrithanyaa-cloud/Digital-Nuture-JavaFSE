@@ -1,0 +1,13 @@
+record Student(int id, String name) {}
+
+class RecordDemo {
+
+    public static void main(String[] args) {
+
+        Student s =
+            new Student(101,"Rithanyaa");
+
+        System.out.println(s.id());
+        System.out.println(s.name());
+    }
+}
