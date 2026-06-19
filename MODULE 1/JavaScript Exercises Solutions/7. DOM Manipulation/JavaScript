@@ -1,0 +1,24 @@
+const container =
+document.querySelector("#eventsContainer");
+
+const card =
+document.createElement("div");
+
+card.innerHTML =
+"<h3>Music Festival</h3>";
+
+container.appendChild(card);
+
+function register(){
+
+    card.innerHTML =
+    "<h3>Registered Successfully</h3>";
+
+}
+
+function cancel(){
+
+    card.innerHTML =
+    "<h3>Registration Cancelled</h3>";
+
+}
