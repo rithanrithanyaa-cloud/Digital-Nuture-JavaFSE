@@ -1,0 +1,34 @@
+function addEvent(events, event){
+    events.push(event);
+}
+
+function registerUser(event){
+    event.seats--;
+}
+
+function filterEventsByCategory(events, callback){
+    return events.filter(callback);
+}
+
+/* Closure */
+
+function categoryCounter(){
+
+    let count = 0;
+
+    return function(){
+        count++;
+        return count;
+    };
+
+}
+
+const musicRegistrations = categoryCounter();
+
+console.log(musicRegistrations());
+console.log(musicRegistrations());
+
+const result = filterEventsByCategory(
+events,
+event => event.category === "Music"
+);
