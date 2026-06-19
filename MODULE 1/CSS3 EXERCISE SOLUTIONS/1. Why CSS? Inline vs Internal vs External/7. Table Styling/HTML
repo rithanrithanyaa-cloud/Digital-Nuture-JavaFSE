@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Event</th>
+        <th>Date</th>
+    </tr>
+
+    <tr>
+        <td>Music Fest</td>
+        <td>20 July</td>
+    </tr>
+
+    <tr>
+        <td>Sports Day</td>
+        <td>25 July</td>
+    </tr>
+</table>
